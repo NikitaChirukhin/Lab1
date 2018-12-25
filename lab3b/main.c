@@ -28,7 +28,7 @@ int main()
 	}
 	else	{	
 		//PARENT - target
-		sleep(3);
+		sleep(1);
 		printf("PARENT: get sys time from pipe\n");
 		time_t buf;
 		close (fd[0]);
